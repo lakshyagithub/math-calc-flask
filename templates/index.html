@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+
+    body {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+        background-color: darkslategrey;
+		font-family: Arial;
+    }
+
+    h1 {
+        color: skyblue;
+    }
+	
+	.paa {
+		font: white;
+	}
+
+</style>
+</head>
+<body>
+	<h1 class="topic">Calculator.</h1>
+	<p class="paa">Welcome to my app!</p>
+	<form method="POST">
+	<input placeholder="Eqation", name="equation1">
+	<input placeholder="operation", name="operation1">
+	<input type="submit">
+	</form>
+	<br><br>
+	<p>EXPRESSTION: {{ expression1 }}</p>
+	<p>ANSWER: {{ ans1 }}<p>
+</body>
+</html>
